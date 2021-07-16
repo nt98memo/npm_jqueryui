@@ -1,0 +1,17 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify js/common/require.js > WebContent/js/common/require.js",
+    "jqueryui_css_copy": "cpx \"node_modules/jquery-ui/themes/**/*\" \"WebContent/css/jquery-ui\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "define": "^1.0.1",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1"
+  }
+}
